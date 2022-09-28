@@ -378,6 +378,19 @@ section p {
     width: 100%;
 }
 
+details{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 100%;
+    line-height: 100%;
+    text-align: left;
+    text-decoration: none;
+    color: gray;
+}
+details p{
+    font-size: 80%;
+}
 #experienceImg {
     display: flex;
     justify-content: space-between;
@@ -388,6 +401,14 @@ section p {
     border-radius: 0 ;
     text-align: center;
     border-bottom: none;
+}
+
+#experienceImg img{
+    width: 100%;
+}
+
+#big{
+    width: 80%;
 }
 
 #otherExperience {
@@ -410,6 +431,7 @@ section p {
 
 .otherImg img{
     border-radius: 50%;
+    width: 100%;
 }
 
 .otherImg img:hover{
