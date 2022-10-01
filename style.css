@@ -113,6 +113,10 @@ section p {
     color: black;
     box-shadow: 2px 2px 7px gray;
 }
+
+.nav{
+    display: none;
+}
 #brazilianFlag{
     position: absolute;
     top: 1%;
@@ -177,8 +181,8 @@ section p {
     width: 0px;
     height: 1px;
     border-radius: 10px;
-    animation: progres 25s 3 linear;
-    animation-delay: 10s;
+    animation: progres 25s 5 linear;
+    animation-delay: 0s;
     animation-fill-mode: forwards;
 }
 
@@ -450,14 +454,14 @@ details p{
     line-height: 100%;
     text-align: center;
     text-decoration: none;
-    color:rgb(8, 181, 22);
+    color:#f974a1;
     padding: 1% 3%;
     box-shadow: 0 5px 5px -3px #b3aeb1;
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
     position: relative;
-    border: 1px solid #b3aeb1;
+    border: 1px solid white;
     
 }
 .buttonCV:hover, .button:focus {
@@ -475,7 +479,7 @@ details p{
 .buttonCV::after {
   content: '';
   border-radius: 100%;
-  border: 8px solid #b3aeb1;
+  border: 8px solid #f974a1;
   position: absolute;
   z-index: -1;
   top: 50%;
@@ -563,7 +567,9 @@ details p{
     height: auto;
     border-radius: 0 10px 10px 0;
 }
-
+#boat{
+    display: none;
+}
 #contactTitle {
     margin-right: 29.5%;
     margin-bottom: -2.5%;
@@ -626,10 +632,9 @@ form button {
     border: 0;
     box-shadow: 0 5px 5px -3px black;
 }
-/*form button:hover{
-    font-size: 30%;
-    transition-duration: 1s;
-}*/
+#flare{
+    display: none;
+}
 
 #contactImg {
     background-image: url(https://bashny.net/uploads/images/00/00/13/2013/05/03/a24f1eabde.jpg);
@@ -774,4 +779,864 @@ footer li{
     font-weight: normal;
     font-size:x-small;
     color: #b3aeb1;
+}
+
+@media (min-width: 1025px) and (max-width: 1365px) {
+    #olaText {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    
+    #olaText h1 {
+        font-family: 'Audiowide', cursive;
+        font-size: 400%;
+        margin-top: 0;
+        margin-bottom: -1%;
+        color: black;
+        letter-spacing: 5px;
+    }
+    
+    #olaText p {
+        font-size: 85%;
+        margin-top: 0;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 200;
+        font-weight: 250;
+        padding: 0 0 0 .8%;
+    }
+    
+    .progress {
+        position: absolute;
+        left: 40%;
+        top: 78%;
+        height: 1px;
+        width: 60%;
+        border: none solid black;
+        border-radius: 10px;
+    }
+    
+    section h2{
+        font-size: 150%;
+    }
+
+    section h3{
+        font-size: 90%;
+        font-weight: 200;
+    }
+
+    section p{
+        font-size: 90%;
+    }
+
+    details{
+        font-size: 90%;
+    }
+
+    #experienceImg{
+        margin-bottom: -1.3%;
+    }
+
+    #experienceImg {
+        text-align: center;
+    }
+
+    #experienceImg img{
+        width: 90%;
+    }
+
+    #otherExperienceImg {
+        text-align: center;
+    }
+
+    #otherExperienceImg img{
+        width: 70%;
+        text-align: center;
+    }
+
+    /*.otherImg{
+        margin-top: -7%;
+        border-top: none;
+    }*/
+
+    .projectsImg {
+        text-align: center;
+    }
+
+    .projectsImg img{
+        width: 95%;
+    }
+
+    #vivText p{
+        font-size: 80%;
+    }
+    #contactImg {
+        background-position: 10% 80%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    
+    .stage{
+        height: auto;
+        width: 12.5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: -77.1%;
+        bottom: 3%;
+    }
+    .p{
+        font-size: 85%;
+    }
+    
+    #olaText {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    
+    #olaText h1 {
+        font-family: 'Audiowide', cursive;
+        font-size: 300%;
+        margin-top: 0;
+        margin-bottom: -1%;
+        color: black;
+        letter-spacing: 5px;
+    }
+    
+    #olaText p {
+        font-size: 70%;
+        margin-top: 0;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 200;
+        font-weight: 300;
+        padding: 0 0 0 0.8;
+    }
+    
+    .progress {
+        position: absolute;
+        left: 43%;
+        top: 76%;
+        height: 1px;
+        opacity: .5;
+        width: 56%;
+        border: none solid black;
+        border-radius: 10px;
+    }
+
+    #buttonLinkedin {
+        bottom: 4%;
+        left:78%;
+    }
+
+    #buttonLinkedin:hover{
+        font-size: 120%;
+    }
+    
+    section h2{
+        font-size: 150%;
+    }
+
+    .languages .aprendendo h3{
+        font-size: 85%;
+        font-weight: 200;
+        margin-bottom: -3%;
+    }
+
+    section p{
+        font-size: 90%;
+    }
+
+    .languages {
+        font-family: 'Audiowide', cursive;
+        font-size: 100%;
+        font-style: normal;
+    }
+
+    .aprendendo{
+        font-family: 'Audiowide', cursive;
+        font-size: 100%;
+        font-style: normal;
+    }
+
+    #habilidades{
+        margin-bottom: -1.5%;
+    }
+
+   .aprendendo{
+        margin-bottom: -1.5%;
+    }
+
+    #experienceImg {
+        text-align: center;
+    }
+
+    #experienceImg img{
+        width: 70%;
+    }
+
+    #otherExperienceImg {
+        text-align: center;
+    }
+
+    #otherExperienceImg img{
+        width: 65%;
+        text-align: center;
+    }
+
+    .otherImg{
+        margin-top: -7%;
+        border-top: none;
+    }
+
+    .projectsImg {
+        text-align: center;
+    }
+
+    .projectsImg img{
+        width: 70%;
+    }
+
+    #vivText p{
+        font-size: 80%;
+    }
+    
+    #apr {
+        margin:auto;
+        margin-bottom: -4%;
+        margin-top: 10%;
+    }
+    
+    .vivT {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #vivText {
+        display: block;
+        width: fit-content;
+        padding: 2% 0.8% .8% .8%;
+        background-color: #FFFFFF;
+        border: 1px solid #b3aeb1;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    #vivTitleT {
+        display: block;
+        background-image: none;
+        background-position: none;
+        background-size: none;
+        width: 100%;
+    }
+    #boat{
+        display: block;
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+    #contactTitle {
+        margin: auto;
+        margin-bottom: -4%;
+        margin-top: 10%;  
+    }
+   
+    .contact {
+        display: block;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    
+    form {
+        display: block;
+        background-color: #FFFFFF;
+        width: 100%;
+        text-align: center;
+        padding: 2% 0% 0 0;
+        border: 1px solid #b3aeb1;
+        border-radius: 10px 10px 0 0;
+        border-bottom: none;
+       
+    }
+
+    form button {
+        margin-bottom: 3%;
+    }
+    
+    #sinalizador {
+        display: block;
+        background-image: none;
+        background-position: none;
+        background-size: none;
+        width: 100%;
+        
+    }
+    #flare{
+        display: block;
+        width: 100.28%;
+        border-radius: 0 0 10px 10px;    
+    }  
+}
+@media (min-width: 450px) and (max-width: 767px){
+    
+    .stage{
+        height: auto;
+        width: 12.5%;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: -77.1%;
+        bottom: 3%;
+    }
+    .p{
+        font-size: 85%;
+    }
+    
+    #olaText {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    
+    #olaText h1 {
+        font-family: 'Audiowide', cursive;
+        font-size: 200%;
+        margin-top: 0;
+        margin-bottom: -1%;
+        color: black;
+        letter-spacing: 5px;
+    }
+    
+    #olaText p {
+        font-size: 55%;
+        margin-top: 0;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 200;
+        font-weight: 300;
+        padding: 0 0 0 0.8;
+    }
+    
+    .progress {
+        position: absolute;
+        left: 45.5%;
+        top: 74%;
+        height: 1px;
+        opacity: .5;
+        width: 53%;
+        border: none solid black;
+        border-radius: 10px;
+    }
+
+    #buttonLinkedin {
+        bottom: 4%;
+        left:77%;
+        font-size: 75%;
+    }
+
+    #buttonLinkedin:hover{
+        font-size: 80%;
+    }
+    
+    section h2{
+        font-size: 110%;
+    }
+
+    .languages {
+        font-family: 'Audiowide', cursive;
+        font-size: 70%;
+        font-style: normal;
+    }
+
+    .aprendendo{
+        font-family: 'Audiowide', cursive;
+        font-size: 70%;
+        font-style: normal;
+    }
+
+    section p{
+        font-size: 70%;
+    }
+
+    #habilidades{
+        margin-bottom: -1.5%;
+    }
+
+   .aprendendo{
+        margin-bottom: -1.5%;
+    }
+
+    #experienceImg {
+        text-align: center;
+        margin-bottom: -2.8%;
+    }
+
+    #experienceImg img{
+        width: 60%;
+    }
+
+    #otherExperienceImg {
+        text-align: center;
+    }
+
+    #otherExperienceImg img{
+        width: 55%;
+        text-align: center;
+    }
+
+    .otherImg{
+        margin-top: -7%;
+        border-top: none;
+    }
+
+    .projectsImg {
+        text-align: center;
+    }
+
+    .projectsImg img{
+        width: 45%;
+    }
+
+    #vivText p{
+        font-size: 75%;
+    }
+    
+    #apr {
+        margin:auto;
+        margin-bottom: -4%;
+        margin-top: 10%;
+    }
+    
+    .vivT {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #vivText {
+        display: block;
+        width: fit-content;
+        padding: 2% 0.8% .8% .8%;
+        background-color: #FFFFFF;
+        border: 1px solid #b3aeb1;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    #vivTitleT {
+        display: block;
+        background-image: none;
+        background-position: none;
+        background-size: none;
+        width: 100%;
+    }
+    #boat{
+        display: block;
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+    #contactTitle {
+        margin: auto;
+        margin-bottom: -4%;
+        margin-top: 10%;  
+    }
+   
+    .contact {
+        display: block;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    
+    form {
+        display: block;
+        background-color: #FFFFFF;
+        width: 100%;
+        text-align: center;
+        padding: 2% 0% 0 0;
+        border: 1px solid #b3aeb1;
+        border-radius: 10px 10px 0 0;
+        border-bottom: none;
+       
+    }
+
+    form button {
+        margin-bottom: 3%;
+    }
+    
+    #sinalizador {
+        display: block;
+        background-image: none;
+        background-position: none;
+        background-size: none;
+        width: 100%;
+        
+    }
+    #flare{
+        display: block;
+        width: 100.28%;
+        border-radius: 0 0 10px 10px;    
+    }
+
+    .stage{
+        display: none;
+    }
+    .nav, .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav {
+        position: absolute;
+        top: 40%;
+        left: 4%;
+        background-color: rgba(225, 225, 225, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        padding: 1%;
+        transition: 0.5s;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    }
+    
+    .menu {
+        margin: 0;
+        padding: 0;
+        width: 0;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+    .nav input:checked ~ .menu {
+        width: fit-content;
+    }
+    
+    .menu li {
+        list-style: none;
+        margin: 0 10px ;
+    }
+    
+    .menu li a {
+        text-decoration: none;
+        color: #666;
+        text-transform: uppercase;
+        font-size: 70%;
+        font-weight: 100;
+        transition: 0.5s;
+    }
+    
+    .menu li a:hover {
+        color: #161919;
+    }
+    
+    .nav input {
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+        opacity: 0;
+    }
+    
+    .nav span {
+        position: absolute;
+        left: 10%;
+        width: 20%;
+        height: 6px;
+        border-radius: 10px;
+        background-color: none;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+    
+    .nav input:checked ~ span {
+        background-color: #f974a1;
+    }
+    
+    .nav span:nth-child(2) {
+        transform: translateY(-8px);
+    }
+    
+    .nav input:checked ~ span:nth-child(2) {
+        transform: translateY(0) rotate(-45deg);
+    }
+    .nav span:nth-child(3) {
+        transform: translateY(8px);
+    }
+    
+    .nav input:checked ~ span:nth-child(3) {
+        transform: translateY(0) rotate(45deg);
+    }
+   
+}
+@media (max-width: 450px){
+    
+    #olaText {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+    
+    #olaText h1 {
+        font-family: 'Audiowide', cursive;
+        font-size: 100%;
+        margin-top: 0;
+        margin-bottom: -1%;
+        color: black;
+        letter-spacing: 3px;
+    }
+    
+    #olaText p {
+        font-size: 40%;
+        margin-top: 0;
+        color: black;
+        font-family: 'Poppins', sans-serif;
+        font-size: 200;
+        font-weight: 300;
+        padding: 0 0 0 0.8;
+    }
+    
+    .progress {
+        display: none;
+    }
+
+    #buttonLinkedin {
+        bottom: 4%;
+        left:77%;
+        font-size: 50%;
+    }
+
+    #buttonLinkedin:hover{
+        font-size: 55%;
+    }
+    
+    section h2{
+        font-size: 80%;
+    }
+
+    .languages {
+        font-family: 'Audiowide', cursive;
+        font-size: 60%;
+        font-style: normal;
+    }
+
+    .aprendendo{
+        font-family: 'Audiowide', cursive;
+        font-size: 60%;
+        font-style: normal;
+    }
+
+    section p{
+        font-size: 50%;
+    }
+
+    #habilidades{
+        margin-bottom: -1.5%;
+    }
+
+   .aprendendo{
+        margin-bottom: -1.5%;
+    }
+
+    #experienceImg {
+        text-align: center;
+        margin-bottom: -2.8%;
+    }
+
+    #experienceImg img{
+        width: 60%;
+    }
+
+    #otherExperienceImg {
+        text-align: center;
+    }
+
+    #otherExperienceImg img{
+        width: 55%;
+        text-align: center;
+    }
+
+    .otherImg{
+        margin-top: -7%;
+        border-top: none;
+    }
+
+    .projectsImg {
+        text-align: center;
+    }
+
+    .projectsImg img{
+        width: 45%;
+    }
+
+    #vivText p{
+        font-size: 60%;
+    }
+    
+    #apr {
+        margin:auto;
+        margin-bottom: -4%;
+        margin-top: 10%;
+    }
+    
+    .vivT {
+        display: block;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    #vivText {
+        display: block;
+        width: fit-content;
+        padding: 2% 0.8% .8% .8%;
+        background-color: #FFFFFF;
+        border: 1px solid #b3aeb1;
+        border-radius: 10px 10px 0 0;
+    }
+    
+    #vivTitleT {
+        display: block;
+        background-image: none;
+        background-position: none;
+        background-size: none;
+        width: 100%;
+    }
+    #boat{
+        display: block;
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+    }
+    #contactTitle {
+        margin: auto;
+        margin-bottom: -4%;
+        margin-top: 10%;  
+    }
+   
+    .contact {
+        display: block;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    
+    form {
+        display: block;
+        background-color: #FFFFFF;
+        width: 100%;
+        text-align: center;
+        padding: 2% 0% 0 0;
+        border: 1px solid #b3aeb1;
+        border-radius: 10px 10px 0 0;
+        border-bottom: none;
+       
+    }
+
+    form button {
+        margin-bottom: 3%;
+    }
+    
+    #sinalizador {
+        display: block;
+        background-image: none;
+        background-position: none;
+        background-size: none;
+        width: 100%;
+        
+    }
+    #flare{
+        display: block;
+        width: 100.28%;
+        border-radius: 0 0 10px 10px;    
+    }
+
+    .stage{
+        display: none;
+    }
+    .nav, .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav {
+        position: absolute;
+        top: 30%;
+        left: 4%;
+        background-color: rgba(225, 225, 225, 0.1);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        padding: 1%;
+        transition: 0.5s;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    }
+    
+    .menu {
+        margin: 0;
+        padding: 0;
+        width: 0;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    
+    .nav input:checked ~ .menu {
+        width: fit-content;
+    }
+    
+    .menu li {
+        list-style: none;
+        margin: 0 10px ;
+    }
+    
+    .menu li a {
+        text-decoration: none;
+        color: #666;
+        text-transform: uppercase;
+        font-size: 70%;
+        font-weight: 100;
+        transition: 0.5s;
+    }
+    
+    .menu li a:hover {
+        color: #161919;
+    }
+    
+    .nav input {
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+        opacity: 0;
+    }
+    
+    .nav span {
+        position: absolute;
+        left: 10%;
+        width: 20%;
+        height: 6px;
+        border-radius: 10px;
+        background-color: none;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+    
+    .nav input:checked ~ span {
+        background-color: #f974a1;
+    }
+    
+    .nav span:nth-child(2) {
+        transform: translateY(-8px);
+    }
+    
+    .nav input:checked ~ span:nth-child(2) {
+        transform: translateY(0) rotate(-45deg);
+    }
+    .nav span:nth-child(3) {
+        transform: translateY(8px);
+    }
+    
+    .nav input:checked ~ span:nth-child(3) {
+        transform: translateY(0) rotate(45deg);
+    }
+   
 }
